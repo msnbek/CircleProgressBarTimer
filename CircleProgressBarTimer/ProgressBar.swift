@@ -38,7 +38,7 @@ class ProgressBar: UIView {
     fileprivate func createCircularPath() {
             self.backgroundColor = UIColor.clear
             self.layer.cornerRadius = self.frame.size.width/2.0
-            let circlePath = UIBezierPath(arcCenter: CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0),
+        let circlePath = UIBezierPath(arcCenter: CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0),
                                           radius: (frame.size.width - 1.5)/2, startAngle: CGFloat(-0.5 * Double.pi),
                                           endAngle: CGFloat(1.5 * Double.pi), clockwise: true)
             
@@ -57,7 +57,7 @@ class ProgressBar: UIView {
             layer.addSublayer(progressLayer)
             
         }
-  func setProgressWithAnimation(duration: TimeInterval, value: Float) {
+  func setProgressWithAnimation(duration: TimeInterval, value: Double) {
             let animation = CABasicAnimation(keyPath: "strokeEnd")
             animation.duration = duration
             // Animate from 0 (no circle) to 1 (full circle)

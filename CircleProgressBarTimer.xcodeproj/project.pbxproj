@@ -13,6 +13,7 @@
 		ED2539E1299FF52E0048C7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2539DF299FF52E0048C7FB /* LaunchScreen.storyboard */; };
 		ED2539EB299FF7D80048C7FB /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2539EA299FF7D80048C7FB /* ProgressBar.swift */; };
 		ED2539ED299FFB180048C7FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2539EC299FFB180048C7FB /* ViewController.swift */; };
+		ED2539EF29A011710048C7FB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2539EE29A011710048C7FB /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED2539E2299FF52E0048C7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED2539EA299FF7D80048C7FB /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		ED2539EC299FFB180048C7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED2539EE29A011710048C7FB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ED2539DD299FF52E0048C7FB /* Assets.xcassets */,
 				ED2539DF299FF52E0048C7FB /* LaunchScreen.storyboard */,
 				ED2539E2299FF52E0048C7FB /* Info.plist */,
+				ED2539EE29A011710048C7FB /* View.swift */,
 			);
 			path = CircleProgressBarTimer;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				ED2539D5299FF52D0048C7FB /* AppDelegate.swift in Sources */,
 				ED2539EB299FF7D80048C7FB /* ProgressBar.swift in Sources */,
+				ED2539EF29A011710048C7FB /* View.swift in Sources */,
 				ED2539ED299FFB180048C7FB /* ViewController.swift in Sources */,
 				ED2539D7299FF52D0048C7FB /* SceneDelegate.swift in Sources */,
 			);
