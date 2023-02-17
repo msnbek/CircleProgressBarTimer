@@ -12,7 +12,7 @@ extension ViewController {
      
   static  let timerLabel : UILabel = {
            let label = UILabel()
-            label.text = "10"
+            label.text = "5"
             label.numberOfLines = 0
             label.textColor = .white
             label.font = .systemFont(ofSize: 25)

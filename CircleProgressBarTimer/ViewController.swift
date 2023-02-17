@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 var timer = Timer()
-    static var score = 10
+    static var score = 5
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -44,7 +44,7 @@ var timer = Timer()
     }
 
     func progressBar() {
-        let circularProgress = ProgressBar(frame: CGRect(x: 10.0, y: 30.0, width: 200 , height: 200))
+        let circularProgress = ProgressBar(frame: CGRect(x: 10.0, y: 30.0, width: 250 , height: 250))
         circularProgress.progressColor = UIColor(red: 75.0/255.0, green: 226.0/255.0, blue: 74/255.0, alpha: 1.0)
         circularProgress.trackColor = UIColor(red: 52.0/255.0, green: 141.0/255.0, blue: 252.0/255.0, alpha: 0.6)
         circularProgress.tag = 101
@@ -76,7 +76,7 @@ var timer = Timer()
             ViewController.timerLabel.text = "\(ViewController.score)"
             let alert = UIAlertController(title: "Tebrikler!", message: "Seans Bitti", preferredStyle: UIAlertController.Style.alert)
             let button = UIAlertAction(title: "OK!", style: UIAlertAction.Style.default) {   (UIAlertAction) in
-                ViewController.score = 10
+                ViewController.score = 5
                 ViewController.timerLabel.text = "\(ViewController.score)"
             }
             alert.addAction(button)
