@@ -11,6 +11,7 @@
 		ED2539D7299FF52D0048C7FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2539D6299FF52D0048C7FB /* SceneDelegate.swift */; };
 		ED2539DE299FF52E0048C7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2539DD299FF52E0048C7FB /* Assets.xcassets */; };
 		ED2539E1299FF52E0048C7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2539DF299FF52E0048C7FB /* LaunchScreen.storyboard */; };
+		ED2539E9299FF7020048C7FB /* ProgressBarTimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2539E8299FF7020048C7FB /* ProgressBarTimerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		ED2539DD299FF52E0048C7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2539E0299FF52E0048C7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED2539E2299FF52E0048C7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2539E8299FF7020048C7FB /* ProgressBarTimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarTimerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				ED2539D4299FF52D0048C7FB /* AppDelegate.swift */,
 				ED2539D6299FF52D0048C7FB /* SceneDelegate.swift */,
+				ED2539E8299FF7020048C7FB /* ProgressBarTimerVC.swift */,
 				ED2539DD299FF52E0048C7FB /* Assets.xcassets */,
 				ED2539DF299FF52E0048C7FB /* LaunchScreen.storyboard */,
 				ED2539E2299FF52E0048C7FB /* Info.plist */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2539E9299FF7020048C7FB /* ProgressBarTimerVC.swift in Sources */,
 				ED2539D5299FF52D0048C7FB /* AppDelegate.swift in Sources */,
 				ED2539D7299FF52D0048C7FB /* SceneDelegate.swift in Sources */,
 			);
