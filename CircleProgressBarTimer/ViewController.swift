@@ -41,9 +41,9 @@ class ViewController: UIViewController {
     }
     func progressBar() {
         let circularProgress = ProgressBar(frame: CGRect(x: 10.0, y: 30.0, width: 100, height: 100))
-        circularProgress.progressColor = UIColor(red: 52.0/255.0, green: 141.0/255.0, blue: 252.0/255.0, alpha: 1.0)
+        circularProgress.progressColor = UIColor(red: 75.0/255.0, green: 226.0/255.0, blue: 74/255.0, alpha: 1.0)
         circularProgress.trackColor = UIColor(red: 52.0/255.0, green: 141.0/255.0, blue: 252.0/255.0, alpha: 0.6)
-        circularProgress.tag = 101
+        circularProgress.tag = 1
         circularProgress.center = self.view.center
         self.view.addSubview(circularProgress)
         
@@ -52,12 +52,13 @@ class ViewController: UIViewController {
     }
     
     @objc func animateProgress() {
-          let cp = self.view.viewWithTag(101) as! ProgressBar
+          let cp = self.view.viewWithTag(1) as! ProgressBar
         cp.setProgressWithAnimation(duration: 5, value: 1)
       }
     override func didReceiveMemoryWarning() {
            super.didReceiveMemoryWarning()
            // Dispose of any resources that can be recreated.
        }
+    
 
 }
